@@ -1,0 +1,41 @@
+<header>
+<h1>
+Annyeong
+</h1> 
+<p>This is a log of things I discovered from class</p>
+</header>
+
+<b>
+<h2>
+> Github now uses personal tokens as passwords.
+<p>
+You'll have to create one from Github. Follow the steps in this <a href="https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to#:~:text=From%20August%2013%2C%202021%2C%20GitHub%20is%20no%20longer%20accepting%20account%20passwords%20when%20authenticating%20Git%20operations.%20You%20need%20to%20add%20a%20PAT%20(Personal%20Access%20Token)%20instead%2C%20and%20you%20can%20follow%20the%20below%20method%20to%20add%20a%20PAT%20on%20your%20system.">StackOverflow post</a>.
+</p>
+</h2>
+<br>
+<h2>
+> Github has replaced <code>master</code> with <code>main</code>.
+<p>
+<em>What does this mean?</em>
+<br>
+When you are pushing to a newly created Github repo, you have to remember to not blindly spam <br>
+<code>git push origin master </code>
+<br> 
+Instead, replace <code>master</code> with <code>main</code> 
+<br>
+<code>git push origin master </code>
+<br>
+Do this if you want to use the default branch @<i>trunk</i>, and not unknowingly working in another branch). It's entirely ok to do your work in the <code>master</code> branch, it is just not recognised as the default branch.
+<br>
+If you think this is annoying out of habit, you can also change the default branch in Github to <code>master</code>. More info <a href="https://cyberhelp.sesync.org/faq/change-git-default-branch-name-from-master-to-main.html">here</a>.
+<br>
+Github did this name change for like "Diversity" movement reason. Can read more <a href="https://jarv.is/notes/github-rename-master/#:~:text=In%20the%20midst,for%20your%20sanity)%3A">here</a>.
+<br>
+Note that if you initialise a repo locally with Git, the default branch is still <code>master</code>. <br>
+<img src="src\git_still_use_master_branch.jpg" alt="Still master">
+<br>
+Github also gives you ways to safely rename the master branches in your existing repo to main. More steps <a href="https://jarv.is/notes/github-rename-master/">here</a>.
+</p>
+</h2>
+
+</b>
